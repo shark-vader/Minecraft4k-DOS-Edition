@@ -1,0 +1,16 @@
+!define BLANK ""
+E:\Backup\DOS\ABLETOBUILD\mf\mc4k\mc4k.obj : E:\Backup\DOS\ABLETOBUILD\mf\mc&
+4k\mc4k.cpp .AUTODEPEND
+ @E:
+ cd E:\Backup\DOS\ABLETOBUILD\mf\mc4k
+ *wpp386 mc4k.cpp -i="C:\WATCOM/h" -w4 -e25 -zq -od -d2 -6r -bt=dos -fo=.obj&
+ -mf -xs -xr
+
+E:\Backup\DOS\ABLETOBUILD\mf\mc4k\mc4k.exe : E:\Backup\DOS\ABLETOBUILD\mf\mc&
+4k\mc4k.obj .AUTODEPEND
+ @E:
+ cd E:\Backup\DOS\ABLETOBUILD\mf\mc4k
+ @%write mc4k.lk1 FIL mc4k.obj
+ @%append mc4k.lk1 
+ *wlink name mc4k d all sys dos4g op m op maxe=25 op q op symf @mc4k.lk1
+

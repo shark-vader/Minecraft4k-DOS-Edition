@@ -1,0 +1,24 @@
+libfixmath\fix16.c(100): Error! E1058: Cannot use typedef 'fix16_t' as a variable
+libfixmath\fix16.c(100): Error! E1009: Expecting ';' but found 'result'
+libfixmath\fix16.c(100): Error! E1063: Missing operand
+libfixmath\fix16.c(101): Error! E1011: Symbol 'result' has not been declared
+libfixmath\fix16.c(298): Error! E1058: Cannot use typedef 'uint32_t' as a variable
+libfixmath\fix16.c(298): Error! E1009: Expecting ';' but found 'remainder'
+libfixmath\fix16.c(298): Error! E1063: Missing operand
+libfixmath\fix16.c(299): Error! E1058: Cannot use typedef 'uint32_t' as a variable
+libfixmath\fix16.c(299): Error! E1009: Expecting ';' but found 'divider'
+libfixmath\fix16.c(299): Error! E1063: Missing operand
+libfixmath\fix16.c(300): Error! E1058: Cannot use typedef 'uint32_t' as a variable
+libfixmath\fix16.c(300): Error! E1009: Expecting ';' but found 'quotient'
+libfixmath\fix16.c(300): Error! E1063: Missing operand
+libfixmath\fix16.c(301): Error! E1077: Missing '}'
+libfixmath\fix16.c(301): Warning! W107: Missing return value for function 'fix16_div'
+libfixmath\fix16.c(306): Error! E1099: Statement must be inside function. Probable cause: missing {
+libfixmath\fix16.h(32): Warning! W202: Symbol 'THREE_PI_DIV_4' has been defined, but not referenced
+libfixmath\fix16.h(28): Warning! W202: Symbol 'FOUR_DIV_PI' has been defined, but not referenced
+libfixmath\fix16.h(31): Warning! W202: Symbol 'PI_DIV_4' has been defined, but not referenced
+libfixmath\fix16.h(30): Warning! W202: Symbol 'X4_CORRECTION_COMPONENT' has been defined, but not referenced
+libfixmath\fix16.h(29): Warning! W202: Symbol '_FOUR_DIV_PI2' has been defined, but not referenced
+libfixmath\fix16.h(38): Warning! W202: Symbol 'fix16_pi' has been defined, but not referenced
+libfixmath\fix16.h(39): Warning! W202: Symbol 'fix16_e' has been defined, but not referenced
+libfixmath\fix16.c(280): Warning! W202: Symbol 'clz' has been defined, but not referenced

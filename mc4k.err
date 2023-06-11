@@ -1,0 +1,2 @@
+mc4k.cpp(1239): Warning! W014: col(0) no reference to symbol 'vgaTest'
+mc4k.cpp(88): Note! N392: col(13) definition: 'void vgaTest( void )'
